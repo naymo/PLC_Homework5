@@ -1,0 +1,6 @@
+C++ provides arithmetic between pointers by java does not.
+Java uses implicit pointers, yet does not allow explicit support.
+Accessing memory using pointers in C++ can be unsafe. In Java there is a security model which will does not allow the arithmetic pointers.
+Java uses strong type references, this means that the programmer cannot cast int* to char* which would normally re-interpret the memory at that location. It is somewhat fixed. This is not the
+case in C.
+Simply manipulating pointers in unsafe, when compared to using references in Java
